@@ -18,9 +18,9 @@ $i = 0;
 * 
 * @see more details at http://rockmongo.com/wiki/configuration?lang=en_us
 */
-$MONGO["servers"][$i]["mongo_name"] = "mongodb";//mongo server name
+$MONGO["servers"][$i]["mongo_name"] = "mongo";//mongo server name
 //$MONGO["servers"][$i]["mongo_sock"] = "/var/run/mongo.sock";//mongo socket path (instead of host and port)
-$MONGO["servers"][$i]["mongo_host"] = "212.47.245.243";//mongo host
+$MONGO["servers"][$i]["mongo_host"] = "172.17.0.15";//mongo host
 $MONGO["servers"][$i]["mongo_port"] = "27017";//mongo port
 $MONGO["servers"][$i]["mongo_timeout"] = 0;//mongo connection timeout
 //$MONGO["servers"][$i]["mongo_db"] = "MONGO_DATABASE";//default mongo db to connect, works only if mongo_auth=false
