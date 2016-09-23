@@ -15,7 +15,9 @@ error_reporting(E_ALL);
 
 /**
 * Environment detection
-*/
+* 
+i removed the colon here  
+
 if (!version_compare(PHP_VERSION, "5.0")) {
 	exit("To make things right, you must install PHP5");
 }
